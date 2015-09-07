@@ -1,4 +1,14 @@
 
+To merge files,
+
+ogr2ogr -f ‘ESRI Shapefile’ merge.shp filename1.shp
+Then merge the following files by using:
+
+ogr2ogr -f ‘ESRI Shapefile’ -update -append merge.shp filename2.shp -nln merge
+ogr2ogr -f ‘ESRI Shapefile’ -update -append merge.shp filename3.shp -nln merge
+etc
+
+
 some tools for map visualizations
 
 #Google maps tools
