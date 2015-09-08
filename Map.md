@@ -1,4 +1,7 @@
 
+map to visualize shp/topo/geojson, can also simplify data
+http://mapshaper.org/
+
 To merge files,
 
 ogr2ogr -f ‘ESRI Shapefile’ merge.shp filename1.shp
